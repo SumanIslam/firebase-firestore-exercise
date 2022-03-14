@@ -27,12 +27,12 @@ const renderCafe = (doc) => {
   })
 }
 
-// // getting data
-// firestore.collection('cafes').get().then((snapshot) => {
-//   snapshot.docs.forEach(doc => {
-//     renderCafe(doc);
-//   })
-// })
+// getting data
+firestore.collection('cafes').get().then((snapshot) => {
+  snapshot.docs.forEach(doc => {
+    renderCafe(doc);
+  })
+})
 
 // saving data
 form.addEventListener('submit', (e) => {
