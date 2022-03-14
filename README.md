@@ -1,2 +1,3 @@
-## Live Preview
-https://distracted-wright-32b030.netlify.app/
+## website link
+click [here](https://sumanislam.github.io/firebase-firestore-exercise/) to see the Live preview of the website.
+
